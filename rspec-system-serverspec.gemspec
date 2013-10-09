@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   # Metadata
   s.name          = 'rspec-system-serverspec'
-  s.version       = '1.0.0'
+  s.version       = '1.0.1'
   s.authors       = ['Hunter Haugen']
   s.email         = ['h.haugen@gmail.com']
   s.summary       = 'Serverspec rspec-system plugin'
