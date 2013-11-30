@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   # Dependencies
   s.required_ruby_version = '>= 1.8.7'
   s.add_runtime_dependency 'rspec-system', '~> 2.0'
-  s.add_runtime_dependency 'serverspec', '~> 0.0'
+  s.add_runtime_dependency 'serverspec', '~> 0.12.0'
   s.add_development_dependency "bundler", "~> 1.3"
   s.add_development_dependency "rake"
 end
