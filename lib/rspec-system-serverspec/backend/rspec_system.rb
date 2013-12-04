@@ -1,8 +1,8 @@
-require 'serverspec/backend/exec'
+require 'specinfra/backend/exec'
 
-module Serverspec
+module SpecInfra
   module Backend
-    class RSpecSystem < Serverspec::Backend::Exec
+    class RSpecSystem < SpecInfra::Backend::Exec
       def run_command(cmd, opt={})
         cmd = build_command(cmd)
         cmd = add_pre_command(cmd)
