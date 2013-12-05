@@ -5,12 +5,9 @@
 ## Quick Start
 
 * Have a module that is configured to use rspec-system
-* `gem install serverspec`
-* Add the `serverspec` and `rspec-system-serverspec` gems to your module's `Gemfile`
-* Add these lines to your `spec/spec_helper_system.rb` file:
+* Add the `rspec-system-serverspec` gem to your module's `Gemfile`
+* Add the following line to your `spec/spec_helper_system.rb` file:
 
 ```ruby
 require 'rspec-system-serverspec/helpers'
-include Serverspec::Helper::RSpecSystem
-include Serverspec::Helper::DetectOS
 ```
